@@ -6,8 +6,8 @@ async function main() {
 
   const provider = new ethers.JsonRpcProvider(
 
-  //"http://rpc.qanx.live:8545/"
-  "https://sepolia.infura.io/v3/"+process.env.INFURA_API_KEY
+  "http://rpc.qanx.live:8545/"
+ 
 
   );
   let wallet = new ethers.Wallet(

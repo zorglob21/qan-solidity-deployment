@@ -6,8 +6,6 @@ async function main() {
 
   const provider = new ethers.JsonRpcProvider(
     "http://rpc.qanx.live:8545/"
-    
-    //"http://127.0.0.1:8545"
   );
 
 
